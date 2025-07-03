@@ -1,0 +1,47 @@
+ body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #52e2ec, #0dc507);
+  padding: 30px;
+  color: #00000e;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #f5eff3;
+  border-radius: 8px;
+}
+
+button {
+  background: linear-gradient(to right, #0c0c0c, #f5f7f5);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.entry {
+  background: linear-gradient(#410579, #a50729);
+  padding: 15px;
+  margin: 15px 0;
+  border: 8px dotted #74f055;
+  box-shadow: 0 2px 4px rgb(109, 2, 2);
+  border-radius: 5px;
+  color: #f8f5f5;
+}
+.edit-button {
+  background-color: #d85d0b;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

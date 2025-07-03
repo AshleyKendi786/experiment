@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Digital Journal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to The Digital Journal</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>About You</h2>
+      <p>Through this journal, I hope to share my experiences, insights, and the lessons I've learned along the way.Join me as I explore the digital landscape, connect with others, and document my growth. </p>
+        <p>Feel free to share your thoughts and experiences as well. Let's create a community of digital explorers!</p>
+     <input type="text" id="mood" placeholder="How are you feeling?" />
+      <textarea id="entry" placeholder="Write your thoughts..."></textarea>
+      <input type="date" id="entryDate" />
+      <button id="saveBtn">Save Entry</button>
+
+      <div id="entriesList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 The Digital Journal</p>
+  </footer>
+
+  <!-- Make sure the script is AFTER the elements -->
+  <script src="script.js"></script>
+</body>
+</html>
